@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* Contact */
+.contact ,.card{
+  background-color: rgba(255, 255, 255, 0.144);
+	box-shadow: 10px 10px 40px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.00);
+	border-radius: 5px;
+	-webkit-backdrop-filter: blur(15px);
+	backdrop-filter: blur(15px);
+	-webkit-user-select: none;
+	user-select: none;
+	padding: 20px;
+	z-index: 1;
+	cursor: default;
+	
+}
+.proj,
+.main{
+  background-image: url('.././assets/bg-2.jpg');
+  background-repeat: no-repeat; 
+            background-size: cover;
+            overflow-x: hidden; 
+              position: fixed;
+              z-index: -1;
+            
+           /* filter: opacity(.5); */
+}
+
+.side_icons{
+    right:35px;
+    top: 40%;
+    color: white;
+   
+}
+.side_icons::after{
+  content: '';
+  width: 2px ;
+  height: 150px;
+  background: #fff;
+  left: 50%;
+  top: 100%;
+  position: absolute;
+} 
+.side_icons::before{
+  content: '';
+  width: 2px ;
+  height: 150px;
+  background: #fff;
+  left: 50%;
+  bottom: 100%;
+  position: absolute;
+}
+.social_icon{
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 800;
+  transition: transform .2s ease-in-out;
+
+}
+.social_icon:hover{
+  font-weight: 800;
+  filter: invert(1);
+  transform: scale(1.8);
+}
+
+
+/* buttons */
+button {
+  width: 10em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #0197ee;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  background-color: #212121;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+button::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 90%;
+  left: 3%;
+  background-color: #212121;
+  transition: 0.8s;
+}
+
+button:hover::before, button:hover::after {
+  transform: scale(0)
+}
+
+button:hover {
+  box-shadow: inset 0px 0px 25px #2c82e5;
+}
