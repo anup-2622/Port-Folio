@@ -3,7 +3,9 @@ import Link from 'next/link'
 export default function Footer()
 {
     return (
-        <section className="relative overflow-hidden  bg-lime-200 py-8">
+        // <section className="relative   bg-lime-200 py-8">
+          
+       <div className="w-full">
           <div className="container relative z-10 mx-auto px-4">
             <div className="-m-8 flex flex-wrap items-center justify-evenly">
               <div className="w-auto p-4 ">
@@ -112,6 +114,7 @@ export default function Footer()
               </div>
             </div>
           </div>
-        </section>
+          </div>
+        // </section>
       )
 }
