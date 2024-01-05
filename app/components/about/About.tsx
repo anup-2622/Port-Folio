@@ -8,14 +8,14 @@ export default function About() {
             <p className=" text-4xl font-bold text-white font-serif">ABOUT ME</p>
           </div>
     </div>
-    <div className="flex items-center border justify-center">
+    <div className="flex items-center  justify-center">
     <div
-      className=" flex flex-row gap-2 justify-around border items-center "
+      className=" flex flex-row gap-2 justify-around  items-center "
       style={{ width: "90%", height: "75vh" }}
     >
-      <div className=" border text-white ">
+      <div className="  text-white ">
        {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio hic aut perspiciatis facere tenetur harum asperiores ipsa, earum voluptas debitis, autem dolorem repellendus, rem aliquid optio blanditiis alias sit quam.</p>   */}
-       <div className="background  border w-96 h-96">
+       <div className="background   w-96 h-96">
                 <Image
                   src={anup}
                   alt=""
@@ -23,7 +23,7 @@ export default function About() {
                 />
               </div>
       </div>
-      <div className="border  text-white ">
+      <div className="  text-white ">
         <div className="about-sec">
           <p> <span>Hello</span> <br /> I'm [Anup Kumar], a dedicated [Software Engineer] with a passion for solving complex problems and bringing innovative ideas to life. Here's a glimpse into my journey and what drives me in the world of engineering <br /> <span> Journey into Engineering</span> <br />
           My fascination with engineering began during my [B.tech Mid-sem when i get to know the about the internet and it's power it's feel like some magics are going on and i'm the magician ]. Since then, I've been on a relentless pursuit of knowledge and excellence in the field. The dynamic nature of engineering constantly challenges me, pushing me to evolve and adapt. <br /> <span>Professional Expertise
@@ -47,19 +47,18 @@ export default function About() {
             <p className=" text-4xl font-bold text-white font-serif">SKILLs & EXPERIENCE</p>
           </div>
   </div>
-  <div className="flex items-center border justify-center">
+  <div className="flex items-center  justify-center">
     <div
-      className=" flex flex-row gap-2 justify-around border items-center "
+      className=" flex flex-row gap-2 justify-around  items-center "
       style={{ width: "90%", height: "65vh" }}
     >
-      <div className="experience-sec border w-1/2 text-white ">
-       {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio hic aut perspiciatis facere tenetur harum asperiores ipsa, earum voluptas debitis, autem dolorem repellendus, rem aliquid optio blanditiis alias sit quam.</p>   */}
+      <div className="experience-sec  flex flex-col justify-center items-center  w-1/2  h-4/5 text-white ">
+    
+      
        <div>
         <div className=""><p>TRAINING</p>
-        <p># VM Institute </p>
-        <p># Udemey</p>
-        <p># Internshala</p>
-        </div>
+        <p># Schoofi Software Solutio
+          </p></div>
        </div>
        <div>
         <div className=""><p>INTERSHIP</p>
@@ -73,8 +72,8 @@ export default function About() {
        </div>
    
       </div>
-      <div className=" skill-sec border w-1/2 text-white ">
-        <div className="flex flex-wrap">
+      <div className=" skill-sec  w-1/2 h-4/5 text-white ">
+        <div className="flex flex-wrap justify-between items-center">
           <div className="card"><button>html</button></div>
           <div className="card"><button>CSS</button></div>
           <div className="card"><button>Javascript</button></div>

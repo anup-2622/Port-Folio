@@ -14,12 +14,12 @@ export default function Main() {
         style={{ height: "100vh", width: "100vw" }}
       >
         <Header />
-        <div className=" w-screen flex items-center border justify-center">
+        <div className=" w-screen flex items-center  justify-center">
           <div
             className="home  flex flex-wrap justify-around items-center "
             style={{ width: "90%", height: "95vh" }}
           >
-            <div className="left_home border  text-white ">
+            <div className="left_home   text-white ">
               <p>Welcome to my digital space! I'm</p>
               <h4 className=" text-4xl font-serif">
                 {" "}
@@ -40,12 +40,12 @@ export default function Main() {
               </div>
             </div>
             <div className="right_home  text-white ">
-              <div className="background  border w-96 h-96">
-                <Image
+              <div className="background   w-96 h-96">
+                {/* <Image
                   src={anup}
                   alt=""
                   style={{ width: "200px", height: "" }}
-                />
+                /> */}
               </div>
             </div>
           </div>
