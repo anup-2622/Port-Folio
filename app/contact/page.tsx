@@ -36,12 +36,13 @@ export default function Contact() {
     <div className="  flex flex-wrap items-center justify-around w-screen ">
     <Header/>
     <div className="min-w-sceen flex  justify-center items-center" style={{height:'92vh'}}>
-   
+
    
     <div className=" contact container-sm  flex flex-col  rounded" style={{height:"500px" , width:"500px"}}>
 
-      <div className="text-center my-6">
-        <p className=" text-lg  font-extrabold "> Connect With Us</p>
+      <div className="text-center my-6"> <div className="head-title">
+            <p className=" text-2xl font-bold text-white font-serif"></p>
+          </div>
       </div>
         <form ref={form} onSubmit={sendEmail} className="w-full max-w-sm">
       <div className="md:flex md:items-center mb-6">
