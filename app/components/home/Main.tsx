@@ -5,6 +5,7 @@ import Header from "../header/Header";
 import Footer from "../footer/Footer";
 import About from "../about/About";
 import Sidebar from "../Sidebar/Sidebar";
+import Skill from "../skill/Skill";
 
 export default function Main() {
   return (
@@ -51,6 +52,7 @@ export default function Main() {
           </div>
         </div>
         <About />
+        <Skill/>
         <Footer />
         <Sidebar />
       </div>
