@@ -16,6 +16,9 @@ export default function Blog() {
       <>
         <div className="proj">
           <Header />
+        <div>
+            <h3>hello Blog</h3>
+        </div>
           <div className="  flex flex-wrap items-center justify-around w-screen ">
             {project.map((item) => (
               <div className="card max-w-sm rounded overflow-hidden  m-4">
